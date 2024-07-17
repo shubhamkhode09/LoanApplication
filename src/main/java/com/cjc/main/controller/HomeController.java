@@ -28,7 +28,7 @@ public class HomeController
 	public String saveStudent(@RequestBody Student student)
 	{
 		hs.saveStudent(student);
-		return "Data Added Successfully";
+		return "Data Added Successfully.....!!!";
 		
 	}
 	
